@@ -1,0 +1,113 @@
+body,
+div,
+input,
+select,
+button {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+
+select {
+    background: #ddd;
+}
+
+#svg-render {
+    overflow-x: auto;
+    background: white;
+    margin: 5%;
+    height: 90%;
+}
+
+.canva {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(189, 189, 189);
+}
+
+
+textarea {
+    visibility: hidden;
+    overflow: hidden;
+}
+
+label {
+    color: rgb(148, 148, 148);
+    width: 10vw;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    width: 20%;
+    height: 100vh;
+}
+
+.input-holder {
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(80, 80, 255);
+    border-left: none;
+    height: 7vh;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.input-holder input {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    border: 1px solid rgb(80, 80, 255);
+    height: 3vh;
+    color: white;
+    text-align: center;
+}
+
+.input-holder select {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    border: 1px solid rgb(80, 80, 255);
+    height: 3vh;
+    color: white;
+    text-align: center;
+    width: 9vw;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin: 2% 0%;
+}
+
+.buttons-container a {
+
+    padding: 20px;
+    background-color: rgb(80, 80, 255);
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.buttons-container button {
+
+    padding: 20px;
+    background-color: rgb(80, 80, 255);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
